@@ -1,2 +1,11 @@
-# Comparison-of-banking-Sectors
-A Data science projects made using jupyter notebook and python libraries like matplotlib, numpy and ml tools for comparison of banking sectors
+## Comparison of Banking Sector (SRS Documentation)
+
+This project focuses on a comparative analysis of the Indian banking sector, examining the performance of public and private banks using key financial metrics such as total assets, liabilities, profit, non-performing assets (NPA), and market share. The primary objective is to identify trends, compare the overall performance of public and private sector banks, and use machine learning to predict future bank performance based on these financial features.
+
+We start by creating a synthetic dataset that mimics real-world banking data, simulating figures for 10 banks in India. The dataset includes details such as the bank name, sector (whether the bank is public or private), total assets, liabilities, profit, NPA percentages, and market share. These features provide a broad view of the financial health of each bank and allow for in-depth comparisons between public and private banks.
+
+In the exploratory data analysis (EDA) phase, we begin by checking for missing values and filling them using the median where needed. This ensures that the data is clean and ready for further analysis. A statistical summary of the dataset is generated to provide an overview of the mean, median, and distribution of the financial metrics, helping to identify potential outliers or interesting trends.
+
+The project's machine learning component involves predicting a bank’s profit based on other financial features such as total assets, liabilities, NPA, and market share. We utilize a Random Forest Regressor for this task, splitting the data into training and testing sets to evaluate the model's performance. After training the model, we predict profits for the testing set and calculate the Mean Squared Error (MSE) to gauge the model's accuracy.
+
+This analysis of the Indian banking sector offers insights into how public and private banks compare in terms of financial performance. The machine learning model adds value by enabling predictions of bank profitability based on key metrics, which could be useful for financial analysts and policymakers in making informed decisions regarding the sector. Further improvements could include adding more sophisticated features and experimenting with different machine learning models to refine predictive accuracy.
